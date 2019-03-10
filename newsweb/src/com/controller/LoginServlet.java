@@ -24,6 +24,7 @@ public class LoginServlet extends HttpServlet {
     /**
      * @see HttpServlet#HttpServlet()
      */
+ //哈哈，改下看看	
     public LoginServlet() {
         super();
         // TODO Auto-generated constructor stub
@@ -57,7 +58,7 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect("UserServlet?method=list");
 		}else{
 			PrintWriter out=response.getWriter();
-			out.print("<script>alert('�û�����������');window.location.href='login.jsp';</script>");
+			out.print("<script>alert('ÓÃ»§Ãñ»òÃÜÂë´íÎó£¡');window.location.href='login.jsp';</script>");
 		}
 		
 	}
